@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Renan-Resume</title>
+</head>
+<body>
+  <!--nav section-->
+    <header>
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html" class="active">About</a>
+            <a href="#Projects">Projects</a>
+            <a href="cv.html">CV</a>
+            <a href="form.html">Contact</a>`
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+    <!--intro section-->
+    <main>
+        <section class="introduction">
+            <h1>Renan Borges</h1>
+            <p>&lt;code&gt;Front-end Web Developer&lt;code&gt;</p>
+            <h2>A Little About Me</h2>
+            <p>I am a curios junior front-end developer who has been teaching himself 
+                the foundations of web development for the last seven months.
+                Aside of my knowledge on tags, styles and interactions, 
+                I am a huge advocator of accessible  and responsive web pages
+               The key focus of my studies has been on <abbr title="HyperText Markup Language"><i>HTML.</i></abbr>
+               <abbr title="Cascading Style Sheet"><i>CSS</i></abbr> and <abbr title="JavaScript"><i>JS,</i></abbr>
+               
+            </p>
+        </section>
+        <!--footer-->
+        <footer>
+          <a href="https://www.instagram.com/borges_renan/?hl=en" target="_blank"><img class="icon" src="/assets/instagram.svg" alt=""></a>
+          <a href="https://www.linkedin.com/in/renan-borges-/" target="_blank"><img class="icon" src="/assets/linkedin.svg" alt=""></a> 
+          <a href="https://github.com/Renan3232" target="_blank"><img class="icon" src="/assets/github.svg" alt=""></a>
+        </footer>
+    </main>
+
+       <!--Nav bar hiddes the links for mobile phone and uses tha hamburger icon-->
+          <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+          </script>
+</body>
+</html>

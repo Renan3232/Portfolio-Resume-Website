@@ -32,7 +32,7 @@ section h1 {
     margin: auto;
     text-align: left;
     position: relative;
-    top: 100px;
+    top: 90px;
     left: 20px;
     font-size: small;
 }
@@ -44,7 +44,7 @@ section ul {
     top: 10px;
     right: 20px;
     list-style: none;
-    font-size: small;
+    font-size: 10px;
 }
 
 section ul li{

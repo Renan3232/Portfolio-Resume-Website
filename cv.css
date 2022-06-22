@@ -26,18 +26,19 @@ main {
     margin-bottom:20px;
 
 }
-/*styling the header where contain the name and contact-info*/
+/*styling the header where contain the name and contact-info, for mobile-phone, the Name should be on top on the hr*/
 
 section h1 {
-     margin: auto;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-left: 5%;
     text-align: left;
-    display: inline;
+    display: inline-block;
     position: relative;
-    top:55px;
-    left: 20px;
     font-size: 13px;
 }
 
+/* unodered list with the contact information-style for mobile-phone */
 section ul {
     display: inline;
     text-align:right;
@@ -56,11 +57,12 @@ section ul li{
 ul li a {
     cursor: pointer;
 }
-/*styling the hr */
+/*styling the hr, the horinzontal line after the contact information*/
 hr {
     border: 0.5x solid black;
     background-color: black;
     width: 90%;
+    margin-top: 0%;
 }
 /*styling h2 */
 h2 {
@@ -221,13 +223,6 @@ font-size: 12px;
     header {
         font-size: 13px;
 
-    }
-    h2 {
-        font-size: 
-    }
-    p {
-        font-size: 
-    }
 }
   
 

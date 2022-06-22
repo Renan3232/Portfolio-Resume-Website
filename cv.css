@@ -37,6 +37,13 @@ section h1 {
     position: relative;
     font-size: 15px;
 }
+/*download icon */
+#download-image {
+width: 30px;
+margin-top: 20px;
+margin-left: 5%;
+
+}
 
 /* unodered list with the contact information-style for mobile-phone */
 section ul {
@@ -64,7 +71,7 @@ hr {
     width: 90%;
     margin-top: 0%;
 }
-/*styling h2 */
+/*styling h2, header such as overview, experience and so on, for mobile-phone*/
 h2 {
     text-align: center;
     width: 90%;
@@ -78,7 +85,7 @@ h2 {
 
     
 }
-/*styling the paragraph*/
+/*this is the main paragraph*/
 p {
     font-size: 12px;
     margin-top: 0;
@@ -86,7 +93,7 @@ p {
     margin-right:40px;
 }
 
-/*experience ul*/
+/*experience, unodered list*/
 .experience {
     width: 90%;
     padding: 0;
@@ -102,6 +109,7 @@ p {
    
 
 }
+/*styling the date class inside ul "experience class" */
 .date {
     float: right;
     text-decoration: none;

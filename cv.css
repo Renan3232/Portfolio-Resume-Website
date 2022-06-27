@@ -16,13 +16,13 @@ main {
 
 }
 .container{
-    width: 90%;
+    width: 95%;
     margin-bottom: 0;
     height: 100%;
     background-color: #f2f2f2;
     margin: auto;
     padding-top: 0;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-bottom:20px;
 
 }
@@ -93,7 +93,7 @@ p {
     margin-right:40px;
 }
 
-/*experience, unodered list*/
+/*experience, unordered list*/
 .experience {
     width: 90%;
     padding: 0;
@@ -148,8 +148,8 @@ width: 85%;
 margin: auto;
 margin-top: 0;
 margin-bottom: 10px;
+padding-bottom: 10px;
 font-size: 12px;
-
 }
 
 

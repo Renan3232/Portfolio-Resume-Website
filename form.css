@@ -7,7 +7,7 @@ body {
 
 }
 
-/*main container for mobile*/
+/*main container for desktop*/
 main {
     background-color: pink;
     display: flex;
@@ -16,20 +16,21 @@ main {
     justify-content: center;
     align-items: center;
     font-family: "abel", sans-serif;
+   
 }
 
-/*main header for mobile*/
+/*main header for desktop*/
 h1 {
     text-align: center;
     font-weight: 600;
 }
 
-/*form for mobile*/
+/*form for desktop*/
 form {
     background-color: antiquewhite;
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 60%;
     height: 89.8vh;
     border-radius: 10px;
     margin-top: 10px;
@@ -38,7 +39,7 @@ form {
 
 }
 
-/*labels for mobile*/
+/*labels for desktop*/
 label {
     text-align: center;
     margin: auto;
@@ -50,7 +51,7 @@ label {
 
 }
 
-/*mobile input*/
+/*desktop input*/
 input {
     width: 50%;
     height: 40px;
@@ -61,7 +62,7 @@ input {
 
 }
 
-/*text area for mobile*/
+/*text area for desktop*/
 textarea {
     width: 50%;
     margin: auto;
@@ -69,7 +70,7 @@ textarea {
     border-radius: 5px;
 }
 
-/*button for mobile*/
+/*button for desktop*/
 
 button {
     width: 20%;
@@ -85,17 +86,14 @@ button {
     background-color: pink;
 }
 
-/*styling nav bar*/
+/*styling nav bar for desktop*/
 .topnav {
     overflow: hidden;
     background-color:black;
     opacity: 0.8;
-   
-    
-   
-    
   }
-  /*styling links of nav bar*/
+
+  /*styling links of nav bar desktop*/
   .topnav a {
     float: left;
     display: block;
@@ -107,7 +105,7 @@ button {
     
   }
   
-  /*styling hover over the links*/
+  /*styling hover over the links for desktop*/
   .topnav a:hover {
     background-color: #ddd;
     color: black;
@@ -116,7 +114,9 @@ button {
   .topnav a.active {
     background-color: black;
     color: white;
+  
   }
+
   
   /*hamburger icon will just appears for mobile phone*/
   .topnav .icon {
@@ -129,14 +129,21 @@ button {
     
   }
   
+  /*styling for mobile*/
+
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
     }
-   
+
+   form {
+    width: 90%;
+   }
+  
   }
+
  @media screen and (max-width: 600px) { 
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
@@ -144,6 +151,7 @@ button {
       right: 0;
       top: 0;
     }
+   
 
     .topnav.responsive a {
       float: none;
@@ -151,5 +159,12 @@ button {
       text-align: left;
     }
   }
+
+  
+
+
+  
+    
+  
   
    

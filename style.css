@@ -48,6 +48,10 @@ body {
   .topnav .icon {
   display: none;
   }
+  .introduction {
+    background-color:;
+
+  }
 
 /* styling main container for h1,h2,p*/
 main {
@@ -56,31 +60,34 @@ main {
   text-align: center;
   position: relative;
   display: block;
-  margin-top: 200px;
+  margin-top: 20px;
 }
 
 /*styling h1*/
 h1 {
     font-size: 50px;
     padding: 0;
-   margin-top: -20px;
+    bottom: 30px;
     margin-bottom: 0;
-    
+   
     
 }
 /*styling h2*/
 h2 {
   margin: 0;
+
 }
 
 /*styling p*/
 main p {
-    margin: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
     margin-top: 0;
     margin-bottom: 0;
     padding: 10px;
     box-sizing: border-box;
-    text-align: justify
+    text-align: center;
+    
    
     
 }
@@ -120,6 +127,9 @@ footer {
 
     
 }
+main p {
+  margin: 20px;
+}
 }
 
 @media screen and (max-width: 600px) {
@@ -135,4 +145,3 @@ footer {
     text-align: left;
   }
 }
- 
